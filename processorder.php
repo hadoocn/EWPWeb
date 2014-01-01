@@ -13,6 +13,12 @@
  * Date: 1/1/14
  * Time: 23:31
  */
+
+$tireqty = $_POST['tireqty'];
+$oilqty = $_POST['oilqty'];
+$sparkqty = $_POST['sparkqty'];
+$address = $_POST['address'];
+
 echo '<p>Order processed at ';
 echo date('H:i, jS F');
 echo '</p>';
